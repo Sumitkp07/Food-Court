@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#product-box{
+    display: flex !important;
+}
+.slick-slide div{
+    margin: 10px;
+}
+.slick-arrow:before{
+    color: #f85013;
+    font-size: 50px;
+}
+.slick-prev{
+    left: -40px;
+}
+.slick-nect{
+    right:-30px;
+}
