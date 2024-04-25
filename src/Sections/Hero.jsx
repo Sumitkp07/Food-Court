@@ -6,10 +6,10 @@ import "aos/dist/aos.css";
 const Hero = () => {
   useEffect(() => {
     Aos.init({
-      offset: 200,
+      offset: 100,
       duration: 800,
       easing: "ease-in-sine",
-      delay: 100,
+      delay: 50,
     });
   }, []);
 
@@ -23,7 +23,7 @@ const Hero = () => {
         <h1 data-aos="zoom-in" className="text-6xl text-white font-bold z-40">
           Life is a combination <br /> of pizza & magic
         </h1>
-        <p data-aos="zoom-in" className="text-xl text-white font-lg w-[70%]">
+        <p id="hero-para" data-aos="zoom-in" className="text-xl text-white font-lg w-[70%]">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto,
           delectus minima eos, veniam deleniti minus nihil hic animi doloribus
           vel, ad alias temporibus fuga! Aut aliquam non at ipsam corrupti!

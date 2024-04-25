@@ -33,9 +33,9 @@ const FFfooter = () => {
           <div className="">
             <h5 className='mb-4'><span className="heading3 text-white">Contact info</span></h5>
             <ul className="text-sm">
-              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 "><span><i className="fa-brands fa-map fa-sm"></i></span> 780 S Arroyo Parkway Pasadena, CA 91105 California</a></li>
-              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 "><i className="fa-brands fa-map fa-sm"></i> +1 626-263-0683</a></li>
-              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 "><i className="fa-brands fa-map fa-sm"></i><span style={{textDecoration:"underline"}}> fitnessfreak@gmail.com</span></a></li>
+              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 "><span><i class="fa-solid fa-location-dot text-orange-500"></i></span> 780 S Arroyo Parkway Pasadena, CA 91105 California</a></li>
+              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 "><i class="fa-solid fa-phone text-orange-500"></i> +1 626-263-0683</a></li>
+              <li className="nav-item mb-2"><a href="/" className="nav-link p-0 underline text-orange-500"><i class="fa-solid fa-envelope text-orange-500"></i> foodCourt@gmail.com</a></li>
             </ul>
           </div>
     
@@ -46,7 +46,7 @@ const FFfooter = () => {
               <div className="mt-4">
                 <label for="newsletter1" className="visually-hidden"></label>
                 <input id="newsletter1" type="text" className="form-control rounded-lg w-[65%]" placeholder="Email address"/>
-                <button className="border border-red-700 py-2 px-3 text-sm text-red-700 rounded-lg ml-2" type="button">Subscribe</button>
+                <button className="border border-orange-500 py-2 px-3 text-sm text-orange-500 hover:bg-orange-700 hover:text-white rounded-lg ml-2" type="button">Subscribe</button>
               </div>
             </form>
           </div>
@@ -54,7 +54,7 @@ const FFfooter = () => {
         </div>
     
         <div className="text-center pt-4 pb-2 my-0 ">
-         <p className='text-white'> <strong className='text-white'>Fitness<span style={{color: "red"}}>Freak</span>
+         <p className='text-white'> <strong className='text-white'>Food<span className='text-orange-500'>Court</span>
          </strong> © 2024 Company, Inc. All rights reserved.</p>
           <ul className="flex justify-center items-center my-5">
             <li className="ms-3"><a className="link-body-emphasis bg-white py-2 px-2 rounded-full hover:bg-black" href="/">

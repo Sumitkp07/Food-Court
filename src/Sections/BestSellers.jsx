@@ -13,13 +13,13 @@ const BestSellers = () => {
     });
   }, []);
   return (
-    <section className=' bg-black w-full lg:px-20 px-3 lg:py-20 py-10 bg-cover bg-center flex flex-col justify-center items-center gap-14'>
-    <h1 data-aos="zoom-in" className="text-white text-6xl font-bold capitalize text-center">our best sellers</h1>
+    <section className=' bg-[#e7e7e7] w-full lg:px-20 px-3 lg:py-20 py-10 bg-cover bg-center flex flex-col justify-center items-center gap-14'>
+    <h1 data-aos="zoom-in" className="text-orange-500 text-6xl font-bold capitalize text-center">our best sellers</h1>
     <div className="grid lg:grid-cols-3 grid-cols-1 justify-center items-center gap-6">
       {
         pizza.map((item, index)=>{
          return <div key={index}
-          className='bg-white p-8 flex flex-col justify-center items-center gap-4 rounded-lg'
+          className='bg-white shadow-md shadow-black p-8 flex flex-col justify-center items-center gap-4 rounded-lg'
           ><img src={item.image} alt="pizza-image" className="rounded-lg transform hover:scale-105 transition-transform duration-300 cursor-pointer"/>
           <h1 className="text-black text-center text-2xl font-bold">{item.title}</h1>
           <h1 id="price" className="text-orange-500 text-3xl text-center font-bold">{item.price}</h1>

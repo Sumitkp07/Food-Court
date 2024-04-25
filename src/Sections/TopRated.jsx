@@ -39,7 +39,7 @@ const TopRated = () => {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
-            arrows : false
+            arrows : true
           }
         },
         {
@@ -47,7 +47,15 @@ const TopRated = () => {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows : false
+            arrows : true
+          }
+        },
+        {
+          breakpoint: 300,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows : true
           }
         }
       ]
@@ -75,14 +83,14 @@ const TopRated = () => {
         {pizza.map((item, index) => {
           return (
             <div
-              className="bg-black p-8 flex flex-col justify-center items-center gap-4 rounded-lg cursor-pointer"
+              className="bg-[#e7e7e7] shadow-sm shadow-zinc-600 p-8 flex flex-col justify-center items-center gap-4 rounded-lg cursor-pointer"
               key={index}
               id="product-box"
             ><img src={item.image} alt="" 
             className="rounded-lg transform hover:scale-105 transition-transform duration-300 cursor-pointer"/>
-            <h1 id="title" className="text-white font-bold text-2xl text-center">{item.title}</h1>
+            <h1 id="title" className="text-black font-bold text-2xl text-center">{item.title}</h1>
             <h1 id="price" className="text-orange-500 text-3xl text-center font-bold">{item.price}</h1>
-            <p id="desc" className="text-white text-lg text-center">{item.para}</p>
+            <p id="desc" className="text-black text-lg text-center">{item.para}</p>
             <button className="bg-orange-600  text-white rounded-full px-8 py-3 hover:bg-white hover:text-black font-semibold">ORDER NOW</button>
             </div>
           );
