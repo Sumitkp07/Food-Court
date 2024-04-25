@@ -89,14 +89,6 @@ const TopRated = () => {
         })}
       </Slider>
       </div>
-      {/* <div data-aos="slide-up" className='lg:w-[90%] w-full'>
-          <div
-            key={index}
-            id="product-box"
-            className='bg-cyan-800 p-8 flex flex-col justify-center items-center gap-4 rounded-lg'
-          > <img src={val.image} alt="product-image"/>
-          </div>;
-      </div> */}
     </section>
   );
 };

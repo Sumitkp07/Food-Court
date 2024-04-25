@@ -19,3 +19,49 @@
 .slick-nect{
     right:-30px;
 }
+/* ----------------- footer ------------------- */
+.parent-list li {
+  border: 0px solid rgba(2, 2, 2, 0.521);
+  padding: 6px 9px;
+  border-radius: 50%;
+  background: rgb(219, 226, 225);
+  transition: 0.5s;
+}
+.parent-list li:hover {
+  background-color: red;
+}
+.parent-list .fa-brands:hover {
+  color: white !important;
+}
+footer {
+  background-color: #242424;
+}
+.parent-list li:hover a {
+  list-style-type: none;
+}
+.footer-content ul > li > a {
+  color: rgb(190, 190, 190);
+}
+.fa-brands {
+  color: red;
+}
+.nav-link:hover {
+  color: rgb(250, 250, 250) !important;
+}
+.heading1,
+.heading2,
+.heading3 {
+  position: relative;
+  font-size: 1.6rem;
+}
+.footer-content .heading1::before,
+.heading2::before,
+.heading3::before {
+  content: " ";
+  position: absolute;
+  height: 3px;
+  width: 50%;
+  bottom: -8px;
+  background-color: red;
+  border-radius: 5px;
+}
