@@ -94,7 +94,7 @@ footer {
   width: 50%; 
 }
 .form-image>img{
-  mix-blend-mode:multiply;
+  mix-blend-mode: multiply;
   height: 100%;
   width: 100%;
 }

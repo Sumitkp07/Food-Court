@@ -4,11 +4,11 @@ const Contact = () => {
 
   return (
     <>
-      <section id="login-section" style={{backgroundImage:`url('/image/login2.jpg')`}}>
+      <section id="login-section" style={{backgroundImage:`url('/image/login2.jpg')`}} className="bg-center">
         <div className="container">
           <div className="row pt-2">
             <div className="contact-us">
-              <div className="form-conatiner ">
+              <div className="form-conatiner shadow-md shadow-black">
                 <div className="form-image">
                   <img src='../image/login1.jpg' alt="" />
                 </div>
